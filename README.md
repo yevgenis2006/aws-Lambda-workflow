@@ -1,12 +1,12 @@
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7f2ca4f1-76e8-41ea-b5fe-1ea7cb5a97ca" />
 
 
-## Lambda ETL | AWS 
+## Lambda ETL | AWS ⭐
 Serverless ETL pipeline built with AWS Lambda, designed to ingest JSON data (e.g., from Facebook) and store it into a PostgreSQL database hosted in AWS RDS. The entire infrastructure is provisioned using Terraform, including VPC networking, security groups, IAM roles, and Lambda configuration.
 
 
 
-🧱 Architecture Overview
+🎯 Architecture Overview
 ```
 AWS Lambda: Processes JSON data and writes it to PostgreSQL.
 VPC & Subnets: Lambda runs in isolated subnets with proper network access.
