@@ -89,7 +89,6 @@ until PGPASSWORD="SuperSecret123!" psql -h ${aws_db_instance.postgres.endpoint} 
     exit 1
   fi
 done
-
 # Create database
 PGPASSWORD="SuperSecret123!" psql -h ${aws_db_instance.postgres.endpoint} -p 5432 -U postgres -d postgres -c "CREATE DATABASE facebook;"
 
